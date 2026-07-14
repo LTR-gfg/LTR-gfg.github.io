@@ -1,11 +1,27 @@
-body {
-    background-color: black;
-}
+        *{
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
 
-p {
-    color: white;
-}
+        body {
+            background-image: url(cat1.png);
+            padding-bottom: 1000px;
+        }
 
-article {
-    color: white;
-}
+        .margin{
+            margin: 75% 0;
+        }
+        .parallax {
+            background: url(cat1.png) fixed repeat 100%;
+        }
+
+        .parallax-inner{
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
+        h1 {
+            color: rgb(255, 255, 255);
+            font-size: 200%;
+        }
